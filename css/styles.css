@@ -209,3 +209,43 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+
+/* Poryfolio */
+
+.Portf-list{
+  list-style-type: none;
+}
+.text-port{
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.all {
+background-color: #404BBF;;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+.other-all{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+text-decoration: none;
+
+}
