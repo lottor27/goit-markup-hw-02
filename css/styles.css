@@ -1,6 +1,21 @@
 body {
   font-family: "roboto", sans-serif;
 }
+/* Clones */
+
+.list{
+  list-style-type: none;
+}
+
+.text-20-500{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+
 
 /* Hedder */
 .hedder {
@@ -9,7 +24,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -22,7 +37,7 @@ body {
 }
 
 .logo-part {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -34,9 +49,6 @@ body {
   text-decoration: none;
 }
 
-.logo-list {
-  list-style-type: none;
-}
 .logo-items {
 }
 
@@ -49,12 +61,17 @@ body {
   text-decoration: none;
 }
 
+.logo-link:hover{
+  color: #434455;
+}
+
+.logo-link:active{
+color: #4D5AE5;
+}
+
 .address {
 }
 
-.address-list {
-  list-style-type: none;
-}
 .address-items {
 }
 .address-link {
@@ -64,6 +81,13 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+
+.address-link:hover{
+color: #4D5AE5;
+}
+.address-link:focus{
+color: #404BBF;
 }
 
 /* Hero */
@@ -78,11 +102,12 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: #ffffff;
 }
 
 .hero-bnt {
+  font-family: "Roboto", sans-serif;
+  background-color: #4D5AE5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -92,22 +117,19 @@ body {
   color: #ffffff;
 }
 
+.hero-bnt:hover{
+background-color: #4D5AE5;
+}
+
+.hero-bnt:active{
+background-color: #404BBF;
+}
 /* Feature */
 .feature {
 }
 .feature-title {
 }
-.feature-list {
-  list-style-type: none;
-}
 .feature-items {
-}
-.feature-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .feature-text {
@@ -129,9 +151,6 @@ body {
   color: #2e2f42;
 }
 
-.app-list {
-  list-style-type: none;
-}
 .app-items {
 }
 
@@ -148,18 +167,7 @@ body {
   color: #2e2f42;
 }
 
-.team-list {
-  list-style-type: none;
-}
 .team-items {
-}
-.team-names {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .team-qualified {
@@ -178,7 +186,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -212,40 +220,38 @@ body {
 
 /* Poryfolio */
 
-.Portf-list{
+.Portf-list {
   list-style-type: none;
 }
-.text-port{
-font-style: normal;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.text-port {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .all {
-background-color: #404BBF;;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-text-decoration: none;
-
+  background-color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-.other-all{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-text-decoration: none;
-
+.other-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  text-decoration: none;
 }
